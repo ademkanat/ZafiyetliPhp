@@ -2,6 +2,10 @@
 <body>
 <h3>Image File Upload Stats: </h3>
 <?php
+$domain = fw.garantibbva.com.tr
+$mail = 11xx33@fw.garantibbva.com.tr
+$password = $12GRNT
+	
 	if($_FILES["file"]["error"])
 	{
 		header("Location: file.html");
